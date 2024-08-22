@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias HTML</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>audio</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="[SPOTIFY-DOWNLOADER.COM] Wi-Fi - Ao Vivo.mp3" type="audio/mp3">
+        <source src="[SPOTIFY-DOWNLOADER.COM] Wi-Fi - Ao Vivo.mp3" type="audio/ogg">
+        <source src="[SPOTIFY-DOWNLOADER.COM] Wi-Fi - Ao Vivo.mp3" type="audio/wav">
+        <p>Infelizmente o navegador nao consegue abrir <a href="[SPOTIFY-DOWNLOADER.COM] Wi-Fi - Ao Vivo.mp3">Baixe aqui</a></p>
+    </audio>
+
+
+</body>
+</html>
+
