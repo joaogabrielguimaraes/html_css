@@ -109,9 +109,7 @@ main a:hover{
     color: var(--cor4);
 }
 
-main a::after{
-    content: "🔗";
-}
+
 
 img{
     width: 100%;
@@ -170,6 +168,7 @@ aside{
 }
 
 aside > ul{
+    background-color:white ;
     list-style-type: "\2714\00A0\00A0"; /* numero final é o espaço */
     list-style-position: inside;
     columns: 2; /* divide em duas colunas */
